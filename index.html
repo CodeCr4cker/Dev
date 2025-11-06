@@ -420,14 +420,17 @@
         import { getStorage, ref, uploadBytes, getDownloadURL, deleteObject } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js';
 
         // Firebase configuration - REPLACE WITH YOUR CONFIG
+               // Firebase configuration
         const firebaseConfig = {
-            apiKey: "YOUR_API_KEY",
-            authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-            projectId: "YOUR_PROJECT_ID",
-            storageBucket: "YOUR_PROJECT_ID.appspot.com",
-            messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-            appId: "YOUR_APP_ID"
-        };
+  apiKey: "AIzaSyDr_reHnwMBlZ8HnhT-Ae9Rl4wwvOG2nuk",
+  authDomain: "chat-67712.firebaseapp.com",
+  databaseURL: "https://chat-67712-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "chat-67712",
+  storageBucket: "chat-67712.firebasestorage.app",
+  messagingSenderId: "666294677963",
+  appId: "1:666294677963:web:42b547e2dd362e7847464e",
+  measurementId: "G-SV83LJ44YJ"
+};
 
         const app = initializeApp(firebaseConfig);
         const auth = getAuth(app);
